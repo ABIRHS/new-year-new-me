@@ -126,6 +126,47 @@ ul {
   margin-top: 16px;
 }
 
+/* 4th section: Call Now */
+.gradient-section {
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(../images/watch.png);
+
+  width: 1140px;
+  height: 300px;
+  border-radius: 8px;
+  align-items: center;
+  margin: auto;
+  margin-top: 130px;
+  margin-bottom: 130px;
+  align-items: center;
+}
+
+.gradient-title {
+  color: #ffffff;
+  width: 459px;
+  height: 94px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.92px;
+  margin-left: 64px;
+  margin-bottom: 24px;
+  padding-top: 59px;
+}
+
+.btn-call-now {
+  background-color: #ffffff;
+  color: #005fac;
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23.46px;
+  border: none;
+  margin-left: 64px;
+  margin-bottom: 59px;
+}
+
 /* 5th Section: Contact Information */
 .footer {
   display: flex;
@@ -169,7 +210,7 @@ ul {
 
 .contact-info {
   color: #ffffff;
-  width: 184px;
+  width: 190px;
   height: 26px;
   font-weight: 400;
   font-size: 16px;
