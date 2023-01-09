@@ -4,7 +4,7 @@
   margin: 0px;
 }
 
-/* Banner Page */
+/* 1st Section: Banner Page */
 .banner {
   color: #ffffff;
   display: flex;
@@ -50,7 +50,7 @@
   margin-right: 230px;
 }
 
-/* My failures of previous year */
+/* 2nd section: My failures of previous year */
 .my-failures {
   display: flex;
   align-items: center;
@@ -92,7 +92,7 @@ ul {
   list-style: none;
 }
 
-/* MY PLANS */
+/* 3rd Section: MY PLANS */
 .my-plans-title {
   color: #151414;
   width: 179px;
@@ -107,6 +107,101 @@ ul {
 }
 
 .my-plans {
+  color: #151414;
   display: flex;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35.19px;
   justify-content: center;
+  text-align: center;
+  gap: 99px;
+}
+
+.my-plans-task {
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29.33px;
+  align-items: center;
+  margin-top: 16px;
+}
+
+/* 5th Section: Contact Information */
+.footer {
+  display: flex;
+  gap: 331px;
+  background-color: #151414;
+  justify-content: center;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.footer-title {
+  color: #ffffff;
+  width: 148px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 16px;
+}
+
+.footer-2nd-title {
+  color: #ffffff;
+  display: inline-block;
+  width: 123px;
+  height: 29px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29.33px;
+  margin-bottom: 31px;
+}
+
+.footer-subtitle {
+  color: #ffffff;
+  width: 485px;
+  height: 78px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.contact-info {
+  color: #ffffff;
+  width: 184px;
+  height: 26px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.email-box {
+  width: 325px;
+  height: 64px;
+  border-radius: 8px;
+  border-color: #ffffff;
+  background-color: #151414;
+  margin-bottom: 16px;
+  padding-left: 21px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.11px;
+}
+
+.social-icon {
+  margin-right: 17px;
+}
+
+.btn-sub {
+  background: #005fac;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: block;
+  width: 170.11px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
 }
