@@ -133,3 +133,78 @@
 #btn-call-me {
   margin-bottom: 59px;
 }
+
+.section-all {
+  justify-content: center;
+  align-items: center;
+}
+
+/* SECTION 03*/
+
+/* This row intentionally left blank */
+.footer-section {
+  display: flex;
+  background-color: #151414;
+  width: 1600px;
+  height: 277px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  gap: 331px;
+}
+
+.footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+.footer-about {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  width: 485px;
+  margin-top: 16px;
+}
+
+.footer-email {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  width: 485px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.footer-phone {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  width: 485px;
+}
+
+.form-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#btn-subscribe {
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  background: #005fac;
+}
+
+.email-type {
+  width: 325px;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 21px 158px 22px 21px;
+}
