@@ -10,9 +10,12 @@
 
 .banner {
   background-image: url("./images/banner/banner3.png");
-  width: 1600px;
-  height: 808px;
+  height: 100vh;
   text-align: right;
+  margin-bottom: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cover-text {
@@ -52,10 +55,13 @@
 
 /* This row intentionally left blank */
 .second-section {
+  height: 80vh;
   display: flex;
   gap: 105.22px;
-  padding-left: 200px;
-  margin: 140px 0px;
+  /* padding-left: 200px;
+  margin: 140px 0px; */
+  justify-content: center;
+  margin-bottom: 130px;
 }
 
 .title-my-failures {
@@ -91,16 +97,17 @@
   display: flex;
   gap: 98px;
   text-align: center;
-  padding-left: 400px;
   margin-bottom: 135.6px;
+  justify-content: center;
 }
 
 .title-my-plan {
-  padding-left: 800px;
   color: #151414;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 53px;
+  /* my plan is not coming in center */
+  text-align: center;
 }
 
 .my-plans img {
@@ -111,7 +118,7 @@
   margin-bottom: 16px;
 }
 
-/* SECTION 03*/
+/* SECTION 04*/
 
 /* This row intentionally left blank */
 .hand-image {
@@ -120,6 +127,7 @@
   padding-left: 500px;
   background-position: center;
   margin-bottom: 130px;
+  justify-content: center;
 }
 
 .title-hand-image {
@@ -134,10 +142,10 @@
   margin-bottom: 59px;
 }
 
-.section-all {
+/* .section-all {
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* SECTION 03*/
 
@@ -145,8 +153,6 @@
 .footer-section {
   display: flex;
   background-color: #151414;
-  width: 1600px;
-  height: 277px;
   padding-bottom: 100px;
   padding-left: 200px;
   gap: 331px;
@@ -206,5 +212,5 @@
   border: 1px solid #fff;
   font-size: 18px;
   font-weight: 400;
-  padding: 21px 158px 22px 21px;
+  padding: 15px 150px 15px 15px;
 }
